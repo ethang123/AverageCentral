@@ -23,6 +23,7 @@
       <input type="button" value="Reset Password" onclick="a()" />
       <input type="button" value="Create Account" onclick="create()" />
       <input type="button" value="Admin User" onclick="admin()" />
+      <input type="button" value="Check out more websites?" onclick="web()" />
     </form>
 
     <script type="text/javascript">
@@ -42,6 +43,11 @@
         } else {
           alert("Username and password don't match");
         }
+      }
+    </script>
+    <script>
+      function web() {
+        window.location.href = "https://averagebots.vercel.app";
       }
     </script>
     <script>
